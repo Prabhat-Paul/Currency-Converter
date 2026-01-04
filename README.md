@@ -1,16 +1,88 @@
-# React + Vite
+# 💱 Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, real-time currency converter built with React, Vite, and Tailwind CSS. Convert between 150+ global currencies with live exchange rates.
 
-Currently, two official plugins are available:
+![React]
+![Vite]
+![Tailwind CSS]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- Real-time currency conversion with live exchange rates
+- Support for 150+ global currencies
+- Swap functionality between currencies
+- Clean, responsive UI with Tailwind CSS
+- Fast performance with Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Quick Start
 
-## Expanding the ESLint configuration
+```bash
+# Clone the repository
+git clone https://github.com/Prabhat-Paul/Currency-Converter.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Navigate to project directory
+cd Currency-Converter
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+## 🛠️ Tech Stack
+
+- **React 18** - UI library
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **Exchange Rate API** - Live currency data
+
+## 📦 Build
+
+```bash
+# Production build
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## 🎯 Usage
+
+1. Select the source currency
+2. Enter the amount to convert
+3. Select the target currency
+4. View the converted amount instantly
+5. Use the swap button to reverse currencies
+
+## 📁 Project Structure
+
+```
+src/
+├── components/     # React components
+├── hooks/          # Custom hooks
+├── utils/          # Helper functions
+└── App.jsx         # Main component
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## 👤 Author
+
+**Prabhat Paul**
+
+- GitHub: [@Prabhat-Paul](https://github.com/Prabhat-Paul)
+- LinkedIn: [Prabhat Paul](https://linkedin.com/in/prabhat-paul-8b7169372)
+- Email: prabhatpaul935@gmail.com
+
+## 📄 License
+
+MIT License - feel free to use this project for learning and personal purposes.
+
+---
+
+⭐ If you found this helpful, please star the repository!
