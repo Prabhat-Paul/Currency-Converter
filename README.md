@@ -1,6 +1,7 @@
 # 💱 Currency Converter
 
 A modern, real-time currency converter built with React, Vite, and Tailwind CSS. Convert between 150+ global currencies with live exchange rates.
+<img width="2878" height="1533" alt="image" src="https://github.com/user-attachments/assets/c18cf0f0-ea76-467e-9543-7fe1c845992e" />
 
 ![React]
 ![Vite]
